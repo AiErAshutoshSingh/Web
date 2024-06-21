@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hostel Room Allocation</title>
+</head>
+<body>
+    <h1>Hostel Room Allocation</h1>
+    <form id="upload-form">
+        <label for="group-csv">Upload Group Information CSV:</label>
+        <input type="file" id="group-csv" accept=".csv" required><br><br>
+        <label for="hostel-csv">Upload Hostel Information CSV:</label>
+        <input type="file" id="hostel-csv" accept=".csv" required><br><br>
+        <button type="submit">Upload and Allocate Rooms</button>
+    </form>
+    <div id="results"></div>
+    <a id="download-link" style="display:none;">Download Allocation CSV</a>
+    <script src="script.js"></script>
+</body>
+</html>
